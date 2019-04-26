@@ -1,0 +1,16 @@
+.header{
+    .logo{
+        @include reset();
+        color: $main-color;
+    }
+    .nav{
+        .list{
+            @include reset();
+            .list-item{
+                .list-item-link{
+                    color:$links;
+                }
+            }
+        }
+    }
+}
