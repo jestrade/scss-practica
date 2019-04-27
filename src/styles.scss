@@ -1,15 +1,18 @@
-/*gloables*/
+/*globales*/
 @import 'css/variables';
 @import 'css/mixins';
 /*componentes*/
+@import 'css/aside';
 @import 'css/header';
+@import 'css/footer';
+@import 'css/main';
 @import 'css/section';
 
 /*etiquetas generales*/
 body{
+    @include reset();
     background: #DADADA; 
     font-family: Arial, Helvetica, sans-serif;
-    @include reset();
 }
 a{
     text-decoration: none;

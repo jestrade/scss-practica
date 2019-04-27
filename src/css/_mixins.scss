@@ -2,3 +2,18 @@
     margin:0;
     padding: 0;
 }
+@mixin mobile{
+    @media (max-width: #{$break-point-mobile}){
+        @content;
+    }
+}
+@mixin tablet{
+    @media (min-width: #{$break-point-mobile + 1px}) and (max-width: #{$break-point-desktop - 1px}){
+        @content;
+    }
+}
+@mixin desktop{
+    @media (min-width: #{$break-point-desktop}){
+        @content;
+    }
+}

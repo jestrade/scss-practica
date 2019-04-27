@@ -1,0 +1,18 @@
+
+main{
+    display:grid;    
+    grid-template-areas: 
+        'header header header header'
+        'aside section section section'
+        'footer footer footer footer'
+       ; 
+}
+@include mobile{    
+    main{
+        grid-template-areas: 
+            'header'
+            'section'
+            'footer'
+        ; 
+    }
+}
