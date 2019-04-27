@@ -1,3 +1,5 @@
+/*archivos externos*/
+@import 'css/icomoon/fonts.css';
 /*globales*/
 @import 'css/variables';
 @import 'css/mixins';
@@ -9,6 +11,9 @@
 @import 'css/section';
 
 /*etiquetas generales*/
+*{    
+    box-sizing: border-box;
+}
 body{
     @include reset();
     background: #DADADA; 

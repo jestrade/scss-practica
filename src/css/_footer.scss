@@ -2,4 +2,22 @@
     background: #555;
     grid-area: footer;
     height: 100px;
+    padding: 20px 10px;
+    .icon-list{
+        @include reset();
+        display: flex;
+        flex-direction: row-reverse;
+        .icon-list-item{
+            @include reset();
+            list-style-type: none;
+            margin-right: 10px;
+            .icon-item-link{
+                color:#FFF;
+                font-size: 20px;
+                .icon{
+
+                }
+            }
+        }
+    }
 }
