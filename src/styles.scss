@@ -1,5 +1,6 @@
 /*archivos externos*/
 @import 'css/icomoon/fonts.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 /*globales*/
 @import 'css/variables';
 @import 'css/mixins';
@@ -17,7 +18,7 @@
 body{
     @include reset();
     background: #DADADA; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 a{
     text-decoration: none;
